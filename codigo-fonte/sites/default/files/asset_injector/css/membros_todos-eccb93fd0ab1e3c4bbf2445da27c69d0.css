@@ -1,0 +1,20 @@
+/* Os códigos CSS a seguir se aplicam a página "Membros Live Leite", 
+   endereço: http://177.52.160.60/~liveleit/pt-br/todos-membros */
+
+/* Posiciona o nome do membro ao lado da foto (e não baixo) e 
+   define uma margem de 5 pixels entre eles */
+div#views-bootstrap-membros-todos-page-1 img {
+    float: left;
+    margin-right: 5px;
+}
+
+/* Aumenta a distância entre as linhas que exibem os membros */
+div#views-bootstrap-membros-todos-page-1 .row {
+    padding: 20px;
+}
+
+/* Esparça o botão de "Aplicar" da busca por membros
+   do campo onde entra com o texto para a busca*/
+div#edit-actions {
+    margin-top: 20px;
+}

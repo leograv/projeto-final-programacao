@@ -1,0 +1,43 @@
+/* Os códigos CSS a seguir se aplicam ao bloco de membros
+   da página inicial do sistema web. */
+
+
+/* Define que serão apresentadas 4 colunas, cada uma ocupando
+   um espaço de 3 (segundo padrão do tema Bootstrap).
+   E define padding esquerdo, direito e inferior de cada coluna */
+.col.col-xs-3.col-sm-3.col-md-3.col-lg-3 {
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 4px;
+}
+
+/* Define o tamanho da fonte do título do bloco */
+h2.block-title {
+    font-size: 18px;
+}
+
+/* Define a margem direita e o alinhamento a direita para o link "Ver todos >>" do bloco */
+.more-link.form-group {
+    margin-bottom: 20px;
+    float: right;
+}
+
+/* Define o padding superior da região */
+.well.region.region-sidebar-second {
+    padding-top: 0px;
+}
+
+/* Define o padding esquerdo e direito do bloco para dispositivos 
+   com no máximo 991 pixels de largura */
+@media (max-width: 991px) {
+div#views-bootstrap-membros-home-block-1 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+}
+
+/*
+.views-field.views-field-user-picture img {
+    border-radius: 30px;
+}
+*/

@@ -1,0 +1,7 @@
+/* Os códigos CSS a seguir se aplicam as formatações específicas do
+   bloco de topo do sistema web quando os usuários não estão logados*/
+
+/* Define a margem inferior */
+.navbar {
+  margin-bottom: 40px;
+}

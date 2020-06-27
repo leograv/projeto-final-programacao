@@ -1,0 +1,37 @@
+/* Os códigos CSS a seguir se aplicam as páginas onde o usuário
+   moderador pode gerenciar as newsletters */
+
+/* Ocultar a div token-help */
+div#edit-simplenews-token-help {
+    display: none;
+}
+
+/* Ocultar a opção de escolher o formato do corpo da newsletter */
+div#edit-body-0-format {
+    display: none;
+}
+
+/* Para formulário moderador de criar de newsletter ficar mais limpo */
+div#edit-simplenews-issue-wrapper {
+    display: none;
+}
+
+/* Para formulário moderador de gerenciar de newsletter ficar mais limpo */
+ul.list-inline.local-actions {
+    display: none;
+}
+
+/* Para formulário moderador de gerenciar de newsletter ficar mais limpo */
+form#views-exposed-form-simplenews-newsletters-page-1 {
+    display: none;
+}
+
+/* Para formulário moderador de gerenciar de newsletter ficar mais limpo */
+.form-item.js-form-item.form-type-vertical-tabs.js-form-type-vertical-tabs.form-item-.js-form-item-.form-no-label.form-group {
+    display: none;
+}
+
+/* Para layout perfil moderador ficar mais limpo */
+.view.view-frontpage.view-id-frontpage.view-display-id-page_1 {
+   display: none;
+}

@@ -1,0 +1,11 @@
+/* Os códigos CSS a seguir se aplicam a região da coluna da direita do layout */
+
+/* Aumenta o espaçamento entre os blocos nesta região, aumentando a margem inferior */
+.well.region.region-sidebar-second .block {
+    margin-bottom: 15px;
+}
+
+/* Diminui o espaçamento do link "Ver todos >>" para o final da região */
+.well.region.region-sidebar-second .more-link.form-group {
+    margin-bottom: 0px;
+}

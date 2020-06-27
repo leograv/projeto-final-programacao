@@ -1,0 +1,23 @@
+/* Os códigos CSS a seguir se aplicam ao bloco de palestras
+   anteriores da página inicial do sistema web. */
+
+/* Define o espaçamento entre imagens (funciona junto com .views-field.views-field-nothing, abaixo)
+   e entre imagens e título */
+.views-field.views-field-field-imagem-palestra {
+    margin-bottom: 5px;
+    margin-right: 7px;
+}
+
+/* Define o espaçamento entre imagens (funciona junto com .views-field.views-field-field-imagem-palestra,
+   acima) e entre imagens e título */
+.views-field.views-field-nothing {
+    margin-right: 7px;
+}
+
+/* Diminui o espaço entre o paginador de bolinha e o link "Veja mais >>"
+   para dispositivos com no mínimo 478 pixels de largura */
+@media (min-width: 478px) {
+.owl-pagination {
+    margin-bottom: -15px;
+}
+}

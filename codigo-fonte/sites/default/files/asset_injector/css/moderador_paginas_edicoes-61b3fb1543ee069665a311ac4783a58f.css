@@ -1,0 +1,8 @@
+/* Os códigos CSS a seguir se aplicam as páginas onde o usuário
+   moderador pode gerenciar as palestras anteriores e as próximas */
+
+/* Esparça o botão de "Aplicar" da busca do campo 
+   onde entra com o texto para a busca*/
+div#edit-actions {
+    margin-top: 20px;
+}

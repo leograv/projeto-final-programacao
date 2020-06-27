@@ -1,0 +1,19 @@
+/* Os códigos CSS a seguir se aplicam a funcionalidade do sistema web de
+   retornar para o topo da página quando se estiver rolando o conteúdo */
+
+/* Define o tamanho do círculo e o seu posicionamento em dispositivos com
+   no máximo 767 pixels de largura */
+@media (max-width: 767px) {
+#backtotop {
+    background-size: 40px 40px;
+    right: 0;
+}
+}
+
+/* Define o tamanho do círculo em dispositivos com
+   no mínimo 768 pixels de largura */
+@media (min-width: 768px) {
+#backtotop {
+    background-size: 60px 60px;
+}
+}

@@ -1,0 +1,38 @@
+/* Os códigos CSS a seguir se aplicam a funcionalidade de busca do sistema web. 
+   Esta funcionalidade está disponível em todas as páginas do sistema. */
+
+/* Determina que a largura do formulário de busca, dentro do seu container,
+   seja de 100% para dispositivos com o mínimo de 768 pixels de largura */
+@media (min-width: 768px) {
+.form-inline .form-control {
+    width: 100%;
+}
+}
+
+/* Formata o título do tipo de busca (por palavra-chave, categoria ou região do Brasil)
+   para fonte tamanho 14 e em negrito */
+span.fieldset-legend {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Aumenta a margem inferior após a opção "Sul" da busca por região do Brasil */
+div#edit-field-regiao-do-brasil-target-id--wrapper {
+    margin-bottom: 10px;
+}
+
+/* Melhora o posicionamento dos comboboxs dos itens de busca */
+.bef-exposed-form .form--inline > .form-item {
+    float: none;
+}
+
+/* Altera a margem superior e inferior do título dos tipos de Busca ("Título", "Categoria" e Região do Brasil) */
+legend {
+    margin-bottom: 0px;
+    margin-top: 10px;
+} 
+
+/* Aumenta o espaçamento entre linhas no resultado da busca, acrescentando mais margem inferior */
+.col.col-xs-12.col-sm-12.col-md-4.col-lg-4 {
+    margin-bottom: 25px;
+}

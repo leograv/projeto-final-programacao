@@ -1,0 +1,25 @@
+/* Os códigos CSS a seguir se aplicam ao bloco do menu 
+   quando o usuário está autenticado */
+
+/* Para dispositivos com no máximo 991 pixels de largura, define o
+   alinhamento, padding superior e inferior para os itens do menu */
+@media (max-width: 991px) {
+ul.menu.menu--account.nav.navbar-nav.navbar-right a {
+    text-align: right;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+}
+
+/* Para dispositivos com no mínimo 768 pixels de largura, 
+   define a margem direita para a navbar-right */
+@media (min-width: 768px) {
+.navbar-right {
+    margin-right: 0;
+}
+}
+
+/* Define o tamanho da fonte do título do Menu moderador */
+h2#block-bootstrap-tools-menu {
+    font-size: 18px;
+}

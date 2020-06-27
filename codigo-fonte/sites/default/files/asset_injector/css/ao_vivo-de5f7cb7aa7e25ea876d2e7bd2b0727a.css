@@ -1,0 +1,11 @@
+/* Os códigos CSS a seguir se aplicam a página "Ao vivo", endereço: http://177.52.160.60/~liveleit/pt-br/ao-vivo */
+
+/* seletor classe criado para definir a margem esquerda do vídeo na página */
+.video_palestra_ao_vivo {
+  margin-left: 10%;
+}
+
+/* seletor classe criado para definir a margem esquerda do chat na página */
+.chat_palestra_ao_vivo {
+  margin-left: 10%;
+}

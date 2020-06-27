@@ -1,0 +1,8 @@
+/* Os códigos CSS a seguir se aplicam ao bloco de rodapé do sistema web */
+
+/* Define a margem superior, e o padding superior e inferior do rodapé  */
+.footer {
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

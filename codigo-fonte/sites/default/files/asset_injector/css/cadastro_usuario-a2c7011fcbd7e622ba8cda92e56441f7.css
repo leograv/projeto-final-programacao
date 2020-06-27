@@ -1,0 +1,22 @@
+/* Os códigos CSS a seguir se aplicam a página "Criar nova conta", 
+   endereço: http://177.52.160.60/~liveleit/pt-br/user/register */
+
+/* Determina a largura de 270 pixels para o campo "Email" */
+#edit-mail {
+    width: 270px;
+}
+
+/* Determina a largura de 270 pixels para o campo "Cidade" */
+input#edit-field-cidade-0-value {
+    width: 270px;
+}
+
+/* Determina a largura de 270 pixels para o campo "Estado" */
+input#edit-field-estado-0-value {
+    width: 270px;
+}
+
+/* Determina a largura de 340 pixels para o campo "Escolher arquivo", referente a foto do usuário */
+input#edit-user-picture-0-upload {
+    width: 340px;
+}

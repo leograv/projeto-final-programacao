@@ -1,0 +1,10 @@
+/* Os códigos CSS a seguir se aplicam ao bloco de palestras favoritas
+   da página inicial do sistema web. Atenção: esse bloco só aparece para 
+   o uusário autenticado */
+
+/* Seletor classe criado para definir margem superior e alinhamento a direita do conteúdo */
+.gerenciar_favoritas {
+    float: right;
+    margin-top: -20px;
+}
+

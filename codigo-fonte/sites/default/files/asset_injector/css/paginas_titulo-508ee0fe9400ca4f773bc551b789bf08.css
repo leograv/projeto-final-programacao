@@ -1,0 +1,24 @@
+/* Os códigos CSS a seguir se aplicam ao título das páginas internas do sistema web. */
+
+/* Define a margem superior do elemento tabs */
+nav.tabs {
+    margin-top: 20px;
+}
+
+/* Define a formatação do título da página para dispositivos com no mínimo 768 pixels de largura */
+@media (min-width: 768px) {
+h1.page-header {
+  font-size: 30px;
+  margin-top: -5px; 
+  margin-bottom: 15px;
+}
+}
+
+/* Define a formatação do título da página para dispositivos com no máximo 767 pixels de largura */
+@media (max-width: 767px) {
+h1.page-header {
+  font-size: 21px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+}

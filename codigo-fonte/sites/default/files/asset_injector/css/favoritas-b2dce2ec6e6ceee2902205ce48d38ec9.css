@@ -1,0 +1,14 @@
+/* Os códigos CSS a seguir se aplicam a página de palestras favoritas.
+   Endereço: http://177.52.160.60/~liveleit/pt-br/favoritas
+   Atenção: esse bloco só aparece para o usuário autenticado
+   e o código só é válido nesta página */
+
+/* Aumenta a margem superior do flag para 15 pixels */
+.flag.flag-bookmark.action-flag {
+    margin-top: 15px;
+}
+
+/* Aumenta a margem superior do unflag para 15 pixels */
+.flag.flag-bookmark.action-unflag {
+    margin-top: 15px;
+}

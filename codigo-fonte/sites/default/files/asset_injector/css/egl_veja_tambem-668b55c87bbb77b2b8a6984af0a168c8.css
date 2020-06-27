@@ -1,0 +1,10 @@
+/* Os códigos CSS a seguir se aplicam a página "Quem somos", 
+   endereço: http://177.52.160.60/~liveleit/pt-br/quem-somos */
+
+/* Seletor classe criado para aumentar o espaçamento entre as 2 linhas
+   para disoisitivos com o mínimo de 768 pixels de largura */
+@media (min-width: 768px) {
+   .espaco-linha {
+      margin-bottom:50px;
+   }
+}

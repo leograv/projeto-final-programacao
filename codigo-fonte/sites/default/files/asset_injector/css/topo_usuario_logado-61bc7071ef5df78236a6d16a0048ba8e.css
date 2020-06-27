@@ -1,0 +1,12 @@
+/* Os códigos CSS a seguir se aplicam as formatações específicas do
+   bloco de topo do sistema web quando os usuários estão logados*/
+
+/* Define a margem inferior do page-header */
+.page-header {
+    margin-bottom: 0px;
+}
+
+/* Define a margem inferior do header#navbar */
+header#navbar {
+   margin-bottom: 0; 
+}

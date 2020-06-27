@@ -1,0 +1,8 @@
+/* Os códigos CSS a seguir se aplicam a funcionalidade de compartilhar uma página nas redes sociaisa */
+
+/* Formata o bloco, acrescentando margens superior e inferior e alinhando o conteúdo a direita */
+section#block-addtoanybuttons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+}

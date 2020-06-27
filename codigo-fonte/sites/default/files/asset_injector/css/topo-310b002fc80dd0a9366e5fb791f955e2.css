@@ -1,0 +1,12 @@
+/* Os códigos CSS a seguir se aplicam as formatações gerais do bloco de topo do sistema web */
+
+/* Seletor de classe criado para definir a margem superior dos ícones de redes sociais */
+.redes-sociais-margem-topo {
+   margin-top: 12px 
+}
+
+/* Define o padding e a borda inferiores do page-header  */
+.page-header {
+    padding-bottom: 0;
+    border-bottom: 0;
+}

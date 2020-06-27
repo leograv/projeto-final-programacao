@@ -1,0 +1,12 @@
+/* Os códigos CSS a seguir se aplicam ao bloco dos comentários que os usuários
+   autenticados podem deixar em "Palestras anteriores"*/
+
+/* Oculta do layout a opção do usuário escolher o formato do comentário */
+div#edit-comment-body-0-format {
+    display: none;
+}
+
+/* Oculta do layout a mensagem para o usuário se autenticar/registrar e comentar */
+li.comment-forbidden {
+    display: none;
+}

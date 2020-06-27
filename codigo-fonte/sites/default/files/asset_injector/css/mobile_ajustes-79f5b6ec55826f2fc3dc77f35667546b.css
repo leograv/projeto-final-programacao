@@ -1,0 +1,15 @@
+/* Os códigos CSS a seguir se referem a ajustes para a versão mobile do sistema web */
+
+/* Para dispositivos com no máximo 767 pixels de largura
+   a coluna da direita é definida com 30 pixels de margem superior*/
+@media (max-width: 767px) {
+.well.region.region-sidebar-second {
+    margin-top: 30px;
+}
+
+/* Bloco "Embrapa Gado de Leite", por decisão de projeto, 
+   não será exibido na versão mobile para otimizar a visualização */
+#block-embrapagadodeleitevejatambem {
+    display: none;
+}
+}
