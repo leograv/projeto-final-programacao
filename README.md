@@ -1,4 +1,4 @@
-# Arquivos referentes a disciplina de Projeto Final de Programação - 2020.1
+# Arquivos referentes a disciplina de Projeto Final de Programação
 
 Aluno: Leonardo Mariano Gravina Fonseca
 
